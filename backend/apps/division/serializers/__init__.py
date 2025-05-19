@@ -1,0 +1,2 @@
+from apps.division.serializers.division_detail import DivisionDetailSerializer
+from apps.division.serializers.division_list import DivisionListSerializer

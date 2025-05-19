@@ -1,0 +1,3 @@
+from apps.points.forms.point_cost_import import PointsImportForm
+from apps.points.forms.point_import import PointsCostImportForm
+from apps.points.forms.consumption_import import ConsumptionImportForm

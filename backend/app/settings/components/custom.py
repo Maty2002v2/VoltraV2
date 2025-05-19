@@ -1,0 +1,11 @@
+DEBUG_TOOLBAR_CONFIG = {
+    'RESULTS_CACHE_SIZE': 100,
+    'SHOW_COLLAPSED': True,
+    'SQL_WARNING_THRESHOLD': 50,
+}
+
+# Broker (np. Redis)
+CELERY_BROKER_URL = 'redis://default:@redis-voltra:6379/0'
+CELERY_RESULT_BACKEND = None
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'

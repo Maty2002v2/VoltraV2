@@ -1,5 +1,8 @@
 <template>
-  <h1>Witaj z Vue 3 + Vite + Django!</h1>
+  <div>
+    <h1>Witaj z Vue 3 + Vite + Django!</h1>
+    <router-view />
+  </div>
 </template>
 
 <script>

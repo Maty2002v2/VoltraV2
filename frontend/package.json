@@ -6,11 +6,15 @@
     "build": "vue-cli-service build --dest ../backend/staticfiles"
   },
   "dependencies": {
+    "chart.js": "^3.9.1",
     "vue": "^3.3.4",
+    "vue-chart-3": "^3.1.8",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@vue/cli-service": "^4.5.18",
-    "@vue/compiler-sfc": "^3.3.4"
+    "@vue/compiler-sfc": "^3.3.4",
+    "sass": "^1.89.0",
+    "sass-loader": "^10.5.2"
   }
 }

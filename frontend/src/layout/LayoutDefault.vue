@@ -1,11 +1,13 @@
 <template>
     <div class="layout-default">
         <OrganismSidebar />
+        <OrganismTopbar />
     </div>
 </template>
 
 <script setup>
 import OrganismSidebar from '@/components/organisms/OrganismSidebar.vue';
+import OrganismTopbar from '../components/organisms/OrganismTopbar.vue';
 </script>
 
 <style lang="scss" scoped>

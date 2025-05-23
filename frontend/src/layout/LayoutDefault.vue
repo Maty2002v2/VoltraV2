@@ -1,7 +1,12 @@
 <template>
     <div class="layout-default">
         <OrganismSidebar />
-        <OrganismTopbar />
+        <div>
+            <OrganismTopbar />
+            <div class="layout-default__content">
+                <slot />
+            </div>
+        </div>
     </div>
 </template>
 
@@ -14,5 +19,10 @@ import OrganismTopbar from '../components/organisms/OrganismTopbar.vue';
 .layout-default {
     display: grid;
     grid-template-columns: 240px 1fr;
+
+    &__content {
+        padding: 40px;
+        background: #f4f6f8;
+    }
 }
 </style>
